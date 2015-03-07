@@ -1,2 +1,4 @@
 //FUENTE
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+//PALETA
+http://paletton.com/#uid=23q0L0k8Ccw6P006P00jkJtlqFC
