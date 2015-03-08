@@ -12,14 +12,12 @@
     <!-- bower:css -->
     <!-- endbower -->
     <!-- endbuild -->
-
-    <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/jcarousel.basic.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
-    <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="../bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
@@ -35,7 +33,7 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+		      <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-tower" aria-hidden="true"></span></a>
 		    </div>
 			<div class="navbar-collapse collapse" id="navbar">
 	          <ul class="nav navbar-nav">
@@ -44,8 +42,8 @@
 	            <li class="dropdown">
 	              <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">Servicios<span class="caret"></span></a>
 	              <ul role="menu" class="dropdown-menu">
-	                <li><a id="habitacion1" href="servicio1.html">Suit Real</a></li>
-	                <li><a id="habitacion2" href="#suitAtico">Suit Ático</a></li>
+	                <li><a id="habitacion1" href="servicio1.html">Suite Real</a></li>
+	                <li><a id="habitacion2" href="servicio2.html">Suite Ático</a></li>
 	              </ul>
 	            </li>
 	             <li><a href="contacto.html">Contacto</a></li>
@@ -56,21 +54,23 @@
  	 	</div>
 	</nav>
 	        <div class="container-fluid">
-            <div id="carrusel">
-            <h1>Imagenes de nuestras Suits</h1>
+            <div class="wrapper" id="carrusel">
+            <h1>Imagenes de nuestras Suites</h1>
 
             <p>Aquí puede observa nuestros alojamientos de lujo.</p>
 
             <div class="jcarousel-wrapper">
               <div class="jcarousel">
                     <ul>
-                        <li><img src="images/suit1.jpg" class="img-responsive" width="600" height="400" alt=""></li>
-                        <li><img src="images/suit2.jpg" class="img-responsive" width="600" height="400" alt=""></li>
-                        <li><img src="images/suit3.jpg" class="img-responsive" width="600" height="400" alt=""></li>
-                        <li><img src="images/suit4.jpg" class="img-responsive" width="600" height="400" alt=""></li>
-                        <li><img src="images/suitReal1.jpg" class="img-responsive" width="600" height="400" alt=""></li>
-                        <li><img src="images/suit6.jpg" class="img-responsive" width="600" height="400" alt=""></li>
-
+                        <li><img src="images/suite1.jpg" class="img-responsive"  alt="Suite  familiar, vista del atardecer"></li>
+                        <li><img src="images/suite2.jpg" class="img-responsive"  alt="Vista de la zona comercial, estilos de Messie Fou"></li>
+                        <li><img src="images/suite3.jpg" class="img-responsive" alt="Baño de lujo, suite para gente limpia"></li>
+                        <li><img src="images/suite4.jpg" class="img-responsive"  alt="Entretenimiento presidencial"></li>
+                        <li><img src="images/suite5a.jpg" class="img-responsive"  alt="Modernismo newyorkino"></li>
+                        <li><img src="images/suite5b.jpg" class="img-responsive" alt="Vistas del parque"></li>
+                        <li><img src="images/suite6.jpg" class="img-responsive"  alt="Vistas de los rascacielos"></li>
+                        <li><img src="images/suite7.jpg" class="img-responsive"  alt="foto bonita"></li>
+                        <li><img src="images/suite8.jpg" class="img-responsive"  alt="foto bonita"></li>         
                     </ul>
                 </div>
 
@@ -81,6 +81,7 @@
                 <p class="jcarousel-pagination">                 
                 </p>
             </div>
+            <br/>
                 <p>Estas habitaciones tienen todos los lujos imaginables, todo siempre esta al gusto del cliente, perfecto.</p>
                 <p>Son las habitaciones con las que soñaba, con hidromasaje, jacuzzi, habitaciones para invitados, complementos VIP.</p>
                 <p>No lo dude ni un segúndo, reservala ya</p>
@@ -101,9 +102,12 @@
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
+
     <!-- endbower -->
     <!-- endbuild -->
+    
 	
+
     <!-- build:js scripts/plugins.js -->
     <script src="../bower_components/bootstrap/js/affix.js"></script>
     <script src="../bower_components/bootstrap/js/alert.js"></script>
@@ -120,10 +124,8 @@
     <!-- endbuild -->
 
 
-
+    
     <!-- build:js scripts/main.js -->
-    <script src="scripts/jquery.jcarousel.min.js"></script>
-    <script src="scripts/jcarousel.basic.js"></script>
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
 </body>

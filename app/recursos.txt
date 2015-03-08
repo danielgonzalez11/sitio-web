@@ -1,9 +1,20 @@
-//FUENTE
-<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+//FUENTES De GOOGLE
+-Open Sans
+-Roboto
+
 //PALETA
 http://paletton.com/#uid=23q0L0k8Ccw6P006P00jkJtlqFC
 
-//carousel de imagenes
+//carousel de imagenes, tanto js,css,y su doc
 http://sorgalla.com/jcarousel/
+
+//FRAMEWORK
+Framework CSS: Twiter Bootstrap
+
+//EDICION y compresión de imagenes
+-GIMP
+
+//MINIFIED con 
+gulp build
 
 

@@ -12,13 +12,12 @@
     <!-- bower:css -->
     <!-- endbower -->
     <!-- endbuild -->
-
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
-    <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="../bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
@@ -34,7 +33,7 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+		      <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-tower" aria-hidden="true"></span></a>
 		    </div>
 			<div class="navbar-collapse collapse" id="navbar">
 	          <ul class="nav navbar-nav">
@@ -43,8 +42,8 @@
 	            <li class="dropdown">
 	              <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">Servicios<span class="caret"></span></a>
 	              <ul role="menu" class="dropdown-menu">
-	                <li><a id="habitacion1" href="servicio1.html">Suit Real</a></li>
-	                <li><a id="habitacion2" href="#suitAtico">Suit Ático</a></li>
+	                <li><a id="habitacion1" href="servicio1.html">Suite Real</a></li>
+	                <li><a id="habitacion2" href="servicio2.html">Suite Ático</a></li>
 	              </ul>
 	            </li>
 	             <li><a href="contacto.html">Contacto</a></li>
@@ -54,7 +53,19 @@
 	        </div><!--/.nav-collapse -->
  	 	</div>
 	</nav>
+    <div class="container-fluid" id="parteAtico">
+        <h1>Suite Ático</h1>
+        <p>Le presentamos nuestra suite Ático, desde donde se pueden ver las mejores vistas.</p>
+        <div id="esconder">
+        <p>Esta usando un dispositivo en el cuál no se permite la reproducción de este video.</p>
+        <p>Sentimos las molestias, estamos mejorando el rendimiento de nuestra web para todos los dispositivos.</p>
+        <p>Probando media query correctas, gracias por su paciencia </p>
+        </div>
+        <iframe id="v1" width="600" height="400" src="https://www.youtube.com/embed/ed2LXWLs5EE" frameborder="0" allowfullscreen ></iframe>
 
+
+    </div>
+<nav class="navbar navbar-default navbar-fixed-bottom">    
 	<div class="container-fluid" id="footer">
 		<ul id="iconosFooter">
 		    <li id="panel1c"><a href="https://twitter.com/?lang=es"></a></li>
@@ -64,6 +75,7 @@
 		</ul>
 		<footer>Copyright © 2015 Daniel Gonzalez Nieto</footer>
 	</div>
+</nav>    
 
 
 
