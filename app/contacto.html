@@ -25,6 +25,7 @@
 </head>
 
 <body>
+<div class"conteiner-fluid" id="Contacto">
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
    			<div class="navbar-header">
@@ -39,7 +40,7 @@
 			<div class="navbar-collapse collapse" id="navbar">
 	          <ul class="nav navbar-nav">
 	            <li class="active"><a href="index.html">Home</a></li>
-	            <li><a href="#presentacion">¿Quiénes somos?</a></li>
+	            <li><a href="index.html">¿Quiénes somos?</a></li>
 	            <li class="dropdown">
 	              <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">Servicios<span class="caret"></span></a>
 	              <ul role="menu" class="dropdown-menu">
@@ -47,15 +48,50 @@
 	                <li><a id="habitacion2" href="#suitAtico">Suit Ático</a></li>
 	              </ul>
 	            </li>
-	             <li><a href="#social">Redes Sociales</a></li>
-	             <li><a href="#contacto">Contacto</a></li>
-	             <li><a href="docs/recursos.txt">Documentación</a></li>
+	             <li><a href="contacto.html">Contacto</a></li>
+	             <li><a href="recursos.txt">Documentación</a></li>
 	          </ul>
 	          
 	        </div><!--/.nav-collapse -->
  	 	</div>
 	</nav>
+    <div class="container" id="parteContacto">
+        <h1><b>Contacto:</b></h1>
+        <hr>
+        <br/>
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label for="nombre" class="col-sm-2 control-label">Nombre:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="nombre" placeholder="Escriba su nombre">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="telefono" class="col-sm-2 control-label">Teléfono:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="telefono" placeholder="Escriba su teléfono">
+            </div>
+          </div>
+           <div class="form-group">
+            <label for="email" class="col-sm-2 control-label">Email:</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" placeholder="Escriba su email">
+            </div>
+          </div>
+          <br/>
+          <textarea class="form-control" rows="3">Escribe tu mensaje aquí</textarea>
+          <br/>
+          <!-- Button -->
+            <div class="form-group">
+              <label class="col-sm-2 control-label" for="enviar"></label>
+              <div class="controls">
+                <button id="enviar" name="enviar" class="btn btn-info">Enviar</button>
+              </div>
+            </div>
 
+        </form>
+
+    </div>
 	<div class="container-fluid" id="footer">
 		<ul id="iconosFooter">
 		    <li id="panel1c"><a href="https://twitter.com/?lang=es"></a></li>
@@ -65,7 +101,7 @@
 		</ul>
 		<footer>Copyright © 2015 Daniel Gonzalez Nieto</footer>
 	</div>
-
+</div>
 
 
     <!-- build:js scripts/vendor.js -->
